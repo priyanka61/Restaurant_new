@@ -1,0 +1,23 @@
+<app-homepage></app-homepage>
+<h4>All Added Lists</h4>
+<br>
+<div class="container">
+    <table class="table table-sm col-md-8 offset-md-2">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">City</th>
+            <th scope="col">State</th>
+            <th scope="col">Zip</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr  *ngFor="let listDetails of details">
+            <td>{{listDetails.restaurantName}}</td>
+            <td>{{listDetails.city}}</td>
+            <td>{{listDetails.state}}</td>
+            <td>{{listDetails.zip}}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>

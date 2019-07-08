@@ -1,0 +1,15 @@
+@media (max-width:1000px) {
+    .container{
+        margin-left:25%;
+      
+    }
+}
+.container .table table-sm{
+    text-align:center;
+    overflow: hidden;
+}
+
+h4{
+    text-align: center;
+    margin-top: 15px;
+}

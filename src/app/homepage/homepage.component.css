@@ -1,0 +1,44 @@
+.navbar .navbar-brand {
+    text-align:center!important;
+}
+
+.vertical-menu {
+    max-width: 20%;
+    float: left;
+    position: fixed;
+    overflow: hidden;
+    background: #eee;;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 14px;
+    
+}
+   
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+   
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+   
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+@media (max-width:900px) {
+    .vertical-menu {
+        font-size: 12px!important;
+    }
+}
